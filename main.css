@@ -1,5 +1,5 @@
 .container {
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
 }
 .nav-list {
@@ -19,7 +19,9 @@
 .brown {
   background: #AB6147;
 }
-
+.red {
+  background: #e74c3c;
+}
 a {
   color: white;
   line-height: 50px;
@@ -31,7 +33,7 @@ li.active a{
 }
 
 .nav-content {
-  width: 300px;
+  width: 400px;
   margin-top: 30px;
 }
 .nav-content > div {
