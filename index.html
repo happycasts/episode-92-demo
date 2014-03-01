@@ -8,29 +8,31 @@
   <script src="main.js" type="text/javascript"></script>
 </head>
 <body>
-  <div class="nav-list">
-    <ul>
-      <li class="dark active">
-        <a href="#">dark</a>
-      </li>
-      <li class="green">
-        <a href="#">green</a>
-      </li>
-      <li class="brown">
-        <a href="#">brown</a>
-      </li>
-    </ul>
-  </div>
+  <div class="container">
+      <div class="nav-list">
+      <ul>
+        <li class="dark active">
+          <a href="#">reset</a>
+        </li>
+        <li class="green">
+          <a href="#">rebase</a>
+        </li>
+        <li class="brown">
+          <a href="#">commit</a>
+        </li>
+      </ul>
+    </div>
 
-  <div class="nav-content">
-    <div class="dark">
-      dark
-    </div>
-    <div class="green">
-      green
-    </div>
-    <div class="brown">
-      brown
+    <div class="nav-content">
+      <div class="dark">
+        git reset --hard HEAD
+      </div>
+      <div class="green">
+        git rebase -i HEAD~~~
+      </div>
+      <div class="brown">
+        git commit -a -v
+      </div>
     </div>
   </div>
 </body>
