@@ -1,0 +1,49 @@
+.nav-list {
+  height: 50px;
+}
+.nav-list li {
+  float: left;
+  width: 100px;
+  text-align: center;
+}
+.dark {
+  background: #3A3932;
+}
+.green {
+  background: #2DA544;
+}
+.brown {
+  background: #AB6147;
+}
+
+a {
+  color: white;
+  line-height: 50px;
+}
+
+li.active a{
+  display: block;
+  padding-bottom: 10px;
+}
+
+.nav-content {
+  width: 300px;
+  margin-top: 30px;
+}
+.nav-content > div {
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  display: none;
+}
+
+/* common.css */
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
